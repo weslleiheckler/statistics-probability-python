@@ -1,0 +1,38 @@
+# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,visualstudiocode,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,visualstudiocode,python
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+".gitignore" 187L, 3141C                                                                                                                                                                                    23,0-1        Top
